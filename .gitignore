@@ -1,0 +1,7 @@
+*.log
+.DS_Store
+.env
+.now
+.vscode
+build
+node_modules

@@ -1,0 +1,16 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/", "destination": "/api/graphql" },
+    { "source": "/(.*)", "destination": "/api/$1" }
+  ],
+  "env": {
+    "ACCESS_TOKEN_SECRET": "@access-token-secret",
+    "REFRESH_TOKEN_SECRET": "@refresh-token-secret",
+    "DB_HOST": "@db-host",
+    "DB_NAME": "@db-name",
+    "DB_USERNAME": "@db-username",
+    "DB_PASSWORD": "@db-password"
+  }
+}

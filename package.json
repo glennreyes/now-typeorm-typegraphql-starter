@@ -1,0 +1,34 @@
+{
+  "name": "now-typeorm-typegraphql-starter",
+  "version": "0.1.0",
+  "author": "Glenn Reyes",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "stage": "now",
+    "start": "now dev",
+    "prod": "now --prod"
+  },
+  "dependencies": {
+    "apollo-server-micro": "^2.10.1",
+    "axios": "^0.19.2",
+    "graphql": "^14.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mysql": "^2.14.1",
+    "reflect-metadata": "^0.1.10",
+    "type-graphql": "^0.17.6",
+    "typeorm": "0.2.24"
+  },
+  "devDependencies": {
+    "@now/node": "^1.4.1",
+    "@types/graphql": "^14.5.0",
+    "@types/jsonwebtoken": "^8.3.8",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^8.0.29",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.8",
+    "prettier": "^1.19.1",
+    "typescript": "^3.8.3"
+  }
+}
