@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "apollo-server-micro": "^2.10.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "graphql": "^14.6.0",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.15",
